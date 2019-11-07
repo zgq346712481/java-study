@@ -51,13 +51,15 @@ abstract class E {
 }
 
 class F extends E {
-	public void show() {
-		System.out.print("test all FFFF \n");
-	}
+    @Override
+    public void show() {
+        System.out.print("test all FFFF \n");
+    }
 }
 
 class G extends E {
-	public void show() {
-		System.out.print("test all GGGG \n");
-	}
+    @Override
+    public void show() {
+        System.out.print("test all GGGG \n");
+    }
 }
